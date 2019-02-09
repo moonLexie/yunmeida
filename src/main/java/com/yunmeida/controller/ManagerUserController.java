@@ -18,7 +18,7 @@ public class ManagerUserController {
     public String login(UserInfo user){
         UserInfo userInfo=managerUserService.findByName(user);
         if(userInfo!=null && userInfo.getPassword().equals(user.getPassword())){
-            return "success";
+            return "index";
         }else{
             return "redirect:/login.jsp";
         }

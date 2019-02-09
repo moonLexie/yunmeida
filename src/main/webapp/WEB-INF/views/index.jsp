@@ -1,23 +1,23 @@
-﻿<!DOCTYPE html>
+﻿<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>CloudUi Premium Bootstrap Admin Dashboard Template</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="vendors/iconfonts/simple-line-icon/css/simple-line-icons.css">
-  <link rel="stylesheet" href="vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
-  <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
-  <link rel="stylesheet" href="vendors/css/vendor.bundle.addons.css">
+  <link rel="stylesheet" href="../../vendors/iconfonts/simple-line-icon/css/simple-line-icons.css">
+  <link rel="stylesheet" href="../../vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.addons.css">
   <!-- endinject -->
   <!-- plugin css for this page -->
   <!-- End plugin css for this page -->
   <!-- inject:css -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../../css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="images/favicon.png" />
+  <link rel="shortcut icon" href="../../images/favicon.png" />
 </head>
 
 <body>
@@ -27,8 +27,8 @@
       <div class="nav-top flex-grow-1">
         <div class="container d-flex flex-row h-100 align-items-center">
           <div class="text-center navbar-brand-wrapper d-flex align-items-center">
-            <a class="navbar-brand brand-logo" href="index.html"><img src="images/logo.svg" alt="logo"/></a>
-            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a>
+            <a class="navbar-brand brand-logo" href="index.jsp"><img src="../../images/logo.svg" alt="logo"/></a>
+            <a class="navbar-brand brand-logo-mini" href="index.jsp"><img src="../../images/logo-mini.svg" alt="logo"/></a>
           </div>
           <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between flex-grow-1">
             <form class="search-field d-none d-md-flex" action="#">
@@ -204,7 +204,7 @@
         <div class="container">
           <ul class="nav page-navigation">
             <li class="nav-item">
-              <a href="index.html" class="nav-link"><i class="link-icon icon-screen-desktop"></i><span class="menu-title">Dashboard</span></a>
+              <a href="index.jsp" class="nav-link"><i class="link-icon icon-screen-desktop"></i><span class="menu-title">Dashboard</span></a>
             </li>
             <li class="nav-item">
               <a href="pages/widgets.html" class="nav-link"><i class="link-icon icon-disc"></i><span class="menu-title">Widgets</span></a>
@@ -857,17 +857,17 @@
   <!-- container-scroller -->
 
   <!-- plugins:js -->
-  <script src="vendors/js/vendor.bundle.base.js"></script>
-  <script src="vendors/js/vendor.bundle.addons.js"></script>
+  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <script src="../../vendors/js/vendor.bundle.addons.js"></script>
   <!-- endinject -->
   <!-- Plugin js for this page-->
   <!-- End plugin js for this page-->
   <!-- inject:js -->
-  <script src="js/template.js"></script>
+  <script src="../../js/template.js"></script>
   <!-- endinject -->
   <!-- Custom js for this page-->
-  <script src="js/dashboard.js"></script>
-  <script src="js/todolist.js"></script>
+  <script src="../../js/dashboard.js"></script>
+  <script src="../../js/todolist.js"></script>
   <!-- End custom js for this page-->
 </body>
 
