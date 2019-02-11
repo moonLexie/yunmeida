@@ -59,14 +59,14 @@
     <div class="nav-bottom">
       <div class="container">
         <ul class="nav page-navigation">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a href="index.jsp" class="nav-link"><i class="link-icon icon-screen-desktop"></i><span class="menu-title">基础信息</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a href="#" class="nav-link"><i class="link-icon icon-drawer"></i><span class="menu-title">产品</span><i class="menu-arrow"></i></a>
             <div class="submenu">
               <ul class="submenu-item">
-                <li class="nav-item"><a class="nav-link" href="javascript:;" onclick="jumpPage('productLine.jsp')">产品线管理</a></li>
+                <li class="nav-item active"><a class="nav-link" href="javascript:;" onclick="jumpPage('productLine.jsp')">产品线管理</a></li>
                 <li class="nav-item"><a class="nav-link" href="javascript:;" onclick="jumpPage('classify.jsp')">分类管理</a></li>
                 <li class="nav-item"><a class="nav-link" href="javascript:;" onclick="jumpPage('product.jsp')">产品管理</a></li>
               </ul>
