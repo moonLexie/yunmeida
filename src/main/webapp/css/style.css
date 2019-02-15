@@ -28480,3 +28480,6 @@ div.tagsinput span.tag a {
 /*-------------------------------------------------------------------*/
 
 /*# sourceMappingURL=maps/style.css.map */
+form label{
+  text-align:right;
+}
