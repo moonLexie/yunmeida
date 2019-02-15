@@ -5,6 +5,8 @@
          id="WebApp_ID" version="3.0">
   <display-name>yunmeida</display-name>
   <welcome-file-list>
+
+    <welcome-file>/BaseInfo.jsp</welcome-file>
     <welcome-file>/login.jsp</welcome-file>
   </welcome-file-list>
 
