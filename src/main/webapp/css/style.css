@@ -11288,7 +11288,7 @@ fieldset:disabled a {
 }
 
 .btn-outline-success:hover {
-  color: #212529;
+  color: #fff;
   background-color: #7ed321;
   border-color: #7ed321;
 }
@@ -28474,7 +28474,6 @@ div.tagsinput span.tag a {
   font-size: 43px;
   margin-right: 0;
 }
-
 /*-------------------------------------------------------------------*/
 /* === Layouts === */
 /*-------------------------------------------------------------------*/
@@ -28482,4 +28481,24 @@ div.tagsinput span.tag a {
 /*# sourceMappingURL=maps/style.css.map */
 form label{
   text-align:right;
+}
+
+.option-buttons{
+    margin-left: auto;
+}
+.option-buttons button{
+    margin-left: 5px;
+}
+.form-inline{
+  padding: 10px 20px;
+    padding-right:0px;
+}
+
+.form-inline .inline-label{
+  font-size: 0.875rem;
+  margin-right: 15px;
+}
+
+.form-inline .form-control{
+  width:230px;
 }
